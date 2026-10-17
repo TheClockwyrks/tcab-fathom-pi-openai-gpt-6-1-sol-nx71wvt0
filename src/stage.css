@@ -1,0 +1,7 @@
+/* Preserve the page's fluid CSS box if the runtime applies an inline size
+   pin at DPR 1. The engine still owns backing-store sizing, fitting,
+   letterboxing, pointer mapping, and all viewport measurements. */
+#stage {
+  width: 100vw !important;
+  height: 100vh !important;
+}
